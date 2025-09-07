@@ -1,0 +1,33 @@
+Grouping tags
+
+As grouoping tags são tags de agrupamento, facilidando na hora de classificar um código em HTML. Antes quando ainda se usava versão antiga do HTML, muitas pessoas faziam gruoping tags da seguinte forma:
+
+<body>
+	<div>
+		<div id="cabecalho">
+			<h1>header</h1>
+		</div>
+
+		<div id="menu">
+			<p>Home storm chat help</p>
+		</div>
+
+		<div id="conteúdo">
+			<p>lorem.................</p>
+		</div>
+	</div>
+</body>
+
+Podemos ver que eles usavam só a div como meio de agrupar tags, pois naquele tempo o HTML não tinha outros meios de agrupamento, só havia o "Div e o Span".  (Obs: Se for criar um doc HTML desssa forma "não está errado", porêm hoje em dia isso não seria uma forma de código semântico.)
+
+Com a evolução da HTML nós temos a possibilidade de fazer agrupamentos mais organizados em "Semânticos".
+
+Tags de agrupamentos:
+
+*header = cabeçalho
+*nav = menu
+*main = conteúdo
+*section = seção
+*article = artigo
+*aside = aparte
+*footer = rodapé

@@ -1,0 +1,20 @@
+Origem dos bancos de dados
+
+Dec 50.
+
+	Nessa década, todos os seus dados eram guardados em papel, e nisso o meio de guarda-las era ponto elas numa pasta e por fim num arquivo metálico.
+
+	Usando isso como exemplo, usamos as fichas (registro), pastas(tabelas) e o arquivo metálicos (arquivos).
+
+	Mas com o avanço na tecnologia, eles quiseram diminuir o uso de registros em papel, trazendo tudo para os computadores. E assim eles conseguindo impor esses registros em computadores, eles conseguiram porem de forma bem arcaica, guarda-las num tipo de arquivo sequenciais. Porem para que você possa acessar o arquivo desejado, você tinha que procurar arquivo um por um, porque ele era de forma sequencial, você não conseguia acessar o que queria de forma direta.
+
+	Arquivo Direto: Acesso Rápido e Sem Intermediários
+
+O termo "arquivo direto" descreve um método de organização e acesso a informações que se caracteriza pela capacidade de localizar um item específico de forma imediata, sem a necessidade de percorrer sequencialmente outros registros. Este conceito é aplicado em diferentes áreas, com destaque para a arquivologia e a ciência da computação.
+
+Dec.60.
+
+Mas como dados são importantes principalmente para a área militar, o departamento de defesa dos EUA, criou o evento chamado CODASYL, nele reuniu tanto os militares, empresas e as universidades; com a criação dele surgiu também o COBOL, ela é um tipo de linguagem de programação que teve seu foco em lógica de programação e dados indexados nela. 
+
+E nesse mesmo período também surgiu o banco de dados. O banco de dados é composto por 4 partes, (base de dados, sistema gerenciador(SGBD/DNS) e linguagem de exploração.) 
+Alem do departamento de defesa dos EUA, uma empresa chamada IBM, ela foi a responsável pela criação do modelos hierárquicos, mas também criou o modelos em rede.

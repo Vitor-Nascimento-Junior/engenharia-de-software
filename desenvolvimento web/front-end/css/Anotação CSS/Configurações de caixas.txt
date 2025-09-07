@@ -1,0 +1,18 @@
+Modelos de caixas
+
+Configurações para caixas
+
+heigth = altura
+width = largura
+border = borda
+padding = preenchimento / espaço interno
+margin = margem / espaço externo
+outlie = contorno
+
+Configurando bordas de caixas.
+
+Quando vamos fazer uma configuração de borda, podemos utilizar esses seguintes comandos:
+
+*border-radius = arredondar as pontas de uma borda
+
+*border-style = esse seria o estilo de borda (solid / transparent)

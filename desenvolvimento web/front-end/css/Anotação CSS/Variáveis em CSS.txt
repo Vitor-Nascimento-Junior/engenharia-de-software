@@ -1,0 +1,27 @@
+ Nos temos uma tag muito boa no requisito de organização, e o nome dela é "root". Para que ela serve?
+
+Bom nos usamos ela para separar pré-definições de cores, fontes e entre outros.
+
+Pensa comigo quando terminamos um site, e vamos entregar para nosso cliente, ficamos muito bravo quando ele pede para modificar uma determinada fonte ou cor, porque sabemos que vai ser muito difícil localizar a tag responsável pela cor/fonte. A tag root nos ajuda nessa horas, você o deixando no inicio do seu código basta você apenas modificar aquela cor determinada com muito mais facilidade.
+
+Mas como utilizar ela?
+
+Seu código e desta forma:
+
+:root{
+	--cor01: #9DF5F3;
+    	--cor02: #00A7F0;
+    	--cor03: #005CF0;
+	--font01: arial, helvetica, san-serif;
+}
+
+E perceba que para impormos um seletor temos que colocas (duas barras "--")
+
+E na hora da configuração em css você pode usar dessa forma:
+
+Style{
+	body{
+		color: var(--cor01);
+		font-family: var(--font01);
+	}
+}

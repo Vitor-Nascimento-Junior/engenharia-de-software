@@ -1,0 +1,28 @@
+Configurações em CSS
+
+backgroud-color = cor de fundo
+text-aling = centralizar texto
+Text-indent = Espaçamento de parágrafo
+Background-image = cor de fundo (degrade)
+Columns = quebra de coluna
+Font-family = fonte de um texto
+Font-size = tamanho de fonte
+Font-weigth = peso da fonte
+Line-height = altura de linha
+
+Shorthand font: font-style, font-weight, font-size, font-family
+
+
+Como usar a tag (background-image)?
+
+Normalmente na hora de utilizar essa tag. Colocamos primeiro a direção que vai o degrade, e depois as duas cores ou uma cor e a palavra transparente.
+
+Por exemplo:
+
+Background-image: linear-gradient (to right, black, white);
+
+(Sem faça nessa sequência, e outra coisa. Sempre finalize uma tag de estilo com ";")
+
+Já se for para colocar um degrade transparente devemos fazer da seguinte forma.
+
+Background-image: linear-gradient (to right, black, trasparent);

@@ -1,0 +1,22 @@
+## A Importância Histórica do CODASYL e da Linguagem COBOL
+
+Em um esforço para padronizar o processamento de dados em um cenário de crescente dependência de computadores, o Departamento de Defesa dos Estados Unidos desempenhou um papel crucial na criação do **CODASYL (Conference on Data Systems Languages)** em 1959. Diferente de um único evento, o CODASYL foi um consórcio que reuniu militares, empresas de tecnologia e universidades com o objetivo de desenvolver uma linguagem de programação comum e de alto nível.
+
+Dessa colaboração, emergiu o **COBOL (Common Business-Oriented Language)**, uma linguagem de programação projetada especificamente para o desenvolvimento de aplicações comerciais e de negócios. A iniciativa visava superar a dependência de linguagens de programação proprietárias de cada fabricante de computador, permitindo que os programas fossem mais portáteis e a manutenção, mais simples.
+
+### O Papel do CODASYL: Mais que Apenas COBOL
+
+O CODASYL foi fundamentalmente um comitê para a padronização. Sua principal e mais famosa criação foi, sem dúvida, o COBOL. A conferência estabeleceu as bases para uma linguagem que fosse legível, o mais próximo possível do inglês, facilitando a compreensão tanto por programadores quanto por gestores.
+
+Além do COBOL, o CODASYL teve um papel importante no desenvolvimento de conceitos de banco de dados. Um de seus subcomitês, o Data Base Task Group (DBTG), foi responsável por propostas influentes que levaram ao desenvolvimento do modelo de banco de dados em rede, uma abordagem que precedeu o modelo relacional, hoje dominante.
+
+### COBOL: A Linguagem da Longevidade nos Negócios
+
+O COBOL foi desenvolvido com um foco claro: ser uma linguagem para o mundo dos negócios. Suas principais características refletem essa vocação:
+
+* **Legibilidade:** Sua sintaxe foi projetada para ser autoexplicativa, utilizando termos em inglês como `MOVE`, `ADD` e `PERFORM`. A ideia era que o código fosse mais fácil de ler, manter e ser compreendido por não programadores.
+* **Processamento de Dados:** O COBOL é excepcionalmente robusto no manuseio de grandes volumes de dados, uma necessidade primordial em sistemas bancários, governamentais e de grandes empresas. Ele foi otimizado para operações de entrada e saída de dados e manipulação de arquivos.
+* **Dados Indexados:** A capacidade de trabalhar com dados indexados, permitindo o acesso rápido a registros específicos dentro de grandes arquivos, foi uma de suas forças desde o início, essencial para as aplicações de processamento de transações.
+* **Padronização e Portabilidade:** Graças à influência do Departamento de Defesa, que exigia a presença do COBOL em seus computadores, a linguagem rapidamente se tornou um padrão, garantindo que os programas pudessem ser executados em diferentes máquinas com poucas modificações.
+
+Apesar de sua idade, o COBOL continua a ser uma peça vital na infraestrutura de TI global, presente em sistemas de mainframe que processam transações financeiras, sistemas de companhias de seguro, agências governamentais e muitas outras áreas críticas. Sua longevidade é um testemunho de sua confiabilidade e da eficiência com que foi projetado para sua finalidade original.

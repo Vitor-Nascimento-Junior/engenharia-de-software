@@ -1,0 +1,90 @@
+- Definição de Banco de Dados
+	* Um banco de dados é uma coleção de valores e arquivos inter-relacionados que formam um registro de dados, como pessoas, vendas, produtos ou uma agenda.
+	* Exemplos simples incluem planilhas ou fichas cadastrais.
+	* Os bancos de dados armazenam todos os registros virtualmente.
+
+- Funcionalidade e Uso
+	* Disponibilizam dados para aplicações.
+	* Permitem que aplicações consultem informações, emitam relatórios, realizem vendas, etc.
+	* Aplicações são programas de software ou sistemas que utilizam dados armazenados para diversas funções.
+	* Podem ser desenvolvidas para:
+    		* Gerenciamento de informações
+    		* Automação de processos
+    		* Geração de relatórios
+   	 	* Análise de dados
+
+- Importância dos Bancos de Dados
+	* Garantem a integridade, segurança e eficiência dos dados.
+	* Oferecem recursos como backup, criptografia e controle de acesso.
+	* Fundamentais para tecnologias modernas e operações comerciais/pessoais.
+
+- Conteúdo da Unidade de Aprendizagem
+	* Estudo da evolução dos bancos de dados impulsionada por necessidades dos utilizadores e problemas sociais.
+	* Principais marcos históricos dos bancos de dados em uma escala de tempo, com suas características.
+	* Conhecimento das origens dos bancos de dados modernos.
+
+
+- Comparativo SQL vs. NoSQL
+
+	 	**Bancos de Dados Relacionais (SQL)**
+    	* Baseados em modelo de tabelas inter-relacionadas.
+    	* Dados estruturados e organizados conforme um esquema predefinido.
+		 **Bancos de Dados Não Relacionais (NoSQL)**
+    	* Mais flexíveis em termos de esquema.
+    	* Projetados para grandes volumes de dados não estruturados ou semiestruturados.
+    	* Utilizam modelos como documentos, grafos ou chave-valor.
+
+Este comparativo é útil para escolher o tipo de banco de dados adequado a um projeto ou sistema.
+
+
+
+- Banco de Dados Relacional
+
+    *Definição: Sistema de armazenamento estruturado de dados.
+
+    *Organização: Informações organizadas em tabelas com relações predefinidas.
+
+    *Vantagens: Consistência e integridade dos dados.
+
+- Banco de Dados NoSQL
+
+    *Definição: Abordagem flexível para armazenamento de dados.
+
+    *Organização: Armazena dados não estruturados ou semiestruturados.
+
+    *Vantagens: Permite alta escalabilidade e desempenho.
+
+
+	CONTEÚDO DE LIVRO
+
+Aqui está um resumo conciso da seleção, utilizando cabeçalhos e listas:
+
+- Evolução dos Bancos de Dados
+
+* **Aprimoramento Contínuo**:  A evolução dos bancos de dados foca na melhoria da segurança e velocidade no armazenamento e recuperação de informações.
+
+* **Definição Fundamental**: Conforme Korth, Silberschatz e Sudarshan (2012), um banco de dados é uma coleção de dados inter-relacionados que representa informações de um domínio específico, sendo crucial para organização e acesso eficiente aos dados.
+
+* **Impulsionadores da Inovação**:  Avanços tecnológicos como a computação em nuvem e o processamento de dados em tempo real impulsionam a evolução, permitindo novas abordagens para armazenamento, análise e uso de dados.
+
+* **Benefícios Atuais**: Essas inovações expandem a capacidade dos bancos de dados, capacitando organizações a extrair *insights* valiosos e tomar decisões estratégicas mais precisas e oportunas.
+
+* **Foco da Unidade de Aprendizagem**: O capítulo "Evolução dos bancos de dados" abordará a origem e o desenvolvimento desses sistemas.
+
+	HISTÓRIA DO BANCO DE DADOS
+
+- Resumo sobre a História do MySQL
+
+O MySQL é um dos sistemas de gerenciamento de banco de dados mais populares do mundo, destacando-se pela sua confiabilidade, desempenho e simplicidade de uso.
+
+	 **Origem e Desenvolvimento**
+* **Fundadores:** Michael “Monty” Widenius e David Axmark.
+
+* **Início:** O desenvolvimento do sistema que viria a ser o MySQL começou no final da década de 1970.
+
+	 **Lançamento e Legado**
+* **Primeira Versão:** O lançamento da primeira versão pública ocorreu em 1995.
+
+* **Impacto:** Este lançamento marcou o início da trajetória que o estabeleceu como uma das principais soluções de banco de dados de código aberto disponíveis atualmente.
+
+

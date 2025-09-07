@@ -1,0 +1,1 @@
+Transição de modelo lógico para conceitual: Este é o caminho inverso. É exatamente o que a engenharia reversa faz: pega um modelo mais detalhado (lógico) e o transforma em um mais geral e abstrato (conceitual). Esta é a descrição correta de uma etapa da engenharia reversa.

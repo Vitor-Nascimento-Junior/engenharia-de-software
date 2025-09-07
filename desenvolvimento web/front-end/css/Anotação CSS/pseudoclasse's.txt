@@ -1,0 +1,57 @@
+Pseudoclasse / Pseudoelementos
+
+# = id
+. = class
+: = pseudoclasse
+:: = pseudoelemento
+> = clildren
+
+> = Esse pseudoclasse serve para classificar se á um "filho" dentro da tag principal. Por exemplo:
+
+<p>
+SAIBA MAIS NO LINK ABAIXO! <a hret="https://gustavoguanaraba.github.io"></a>
+</p>
+
+Veja que dentro do paragráfo(p) á um link(a), então nesse caso se fossemos fazer uma cofiguração especifica em CSS somente nesse link dentroi do parágrafo temos que fazer da seguinte forma:
+
+<style>
+	p > a{
+		color: red;
+		visited: darkred;
+		text-decorantion: none;
+	}
+</style>
+
+
+classe:
+:houver = passar o mause por cima
+:visited = quando um link já foi visitando
+:active = quando um link é ativado
+
+elementos:
+::after = depois dos links
+::
+
+código de CSS(*content = coloca uma figura/imagem)
+
+Nos temos alem das pseudoclasse's, temos um simbolo chamado de (child "filho"), que seria esse simbolo aqui ">"
+Como por exemplo:
+
+configuração em HTML:
+<div>
+	passe o mause aqui
+	<p>TEXTO ESCONDIDO.....	</p>
+</div>
+
+configuração em CSS:
+<style>
+	div > p{
+		display: none;
+	}
+	div:houver > p{
+		display block;
+		backgroud-color: red;
+		font-family: arial;
+		color: white;
+	}
+</style>

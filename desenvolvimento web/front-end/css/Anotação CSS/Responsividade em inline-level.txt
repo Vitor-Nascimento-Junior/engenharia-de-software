@@ -1,0 +1,57 @@
+Quando vamos configurar um inline-levei. Temos que ter em mente que o inline não ocupa uma linha toda, assim dessa forma ele não se adapta perfeitamente dependendo onde ele esteja. Como por exemplo, quando colocamos uma imagens num site e começamos a diminuir e aumentar o tamanho da janela, perceba que os parágrafos e títulos se movem conforme, mas as imagens não. Por que?
+
+Simples os parágrafos e títulos são configurações em box-level, já a imagem ela tem o formato inline. Mas como configurar isso?
+
+Para que isso seja possível temos que mexer com os valores de width(largura), mas lembrando valores mínimos e máximos.
+
+A configuração é simples:
+
+<img src="imagens/bugdroid.png" alt="android.png">
+
+Aqui temos uma imagem.
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 580px;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.252);
+}
+
+Já aqui temos uma configuração de corpo principal.
+
+Se você só colocar uma imagem em um main com essa configuração, sua imagem fica vazada pro lado. Para você arrumar isso de forma simples e rápida é só colocar.
+
+Img{
+	width: 100%;
+}
+
+Assim a imagem tendo um aproveitamento de  100% de tela.
+
+Mas se você quiser fazer algo mais complexo basta usar a tag "Picture".
+
+Essa tag te ajuda a colocar dois formatos de imagem, por exemplo; quando a tela está quando ela fica de um jeito e quando ela está pequena fica de outro.
+
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 580px;
+    margin: auto;
+    padding: 20px 0px 0px 0px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.252);
+}
+
+<picture>
+	<source media="(max-width: 500px)"srcset"imagens/dan-droids-pq.png">
+	<img src="imagens/dan-droids.png" alt="Primeiro_mascote_android.png">
+</picture>
+
+Veja que essa é uma configuração em html porem para que a imagem realmente não saia pra fora do seu corpo principal lembre de colocar em css a tag: 
+
+img{
+	width: 100%;
+}
+Obs: quando vamos configurar uma imagem e queremos fazer-la ficar no centro, basta usar a tag margin: auto; porem sabemos que uma imagem não é um box level(ele não ocupa uma linha toda) então para que possamos centralizar a imagem temos que transforma-la em box-level, usando a tag "display: Block;"

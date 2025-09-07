@@ -1,0 +1,29 @@
+configurações de fonte
+
+Temos dois tipos de estilo de fonte:
+
+opentype e a truetype
+
+Quando uma fonte tiver a sigla OTF ela é opentype
+Se tiver TTF é truetype
+
+Porque saber disso?
+
+quando vamos impor uma fonte no nosso código, precisamos coloca-la como uma regra "@" tudo que tiver esse simbolo é uma regra
+
+então quando vamos usar uma font baixada, fazemos esse código para ativar-la:
+
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+veja que primeiro colocamos o nome da fonte (a nossa escolha) e depois colocamos o arquivo da fonte na URL e por ultimo colocamos seu formato (Formt). Ai entra o por que de saber a diferença de OTF e TTF.
+
+Mas caso queria usar uma font de um site (ancorado)
+
+se usa um código diferente código:
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+Nesse caso o Import.

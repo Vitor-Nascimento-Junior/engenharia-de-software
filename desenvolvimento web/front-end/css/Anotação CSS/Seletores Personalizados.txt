@@ -1,0 +1,41 @@
+Seletores personalizados
+
+Nós temos principalmente dois tipos de seletores:
+
+* Id = Esse seletor serve para diferenciar uma tag das demais. Como se aquela tag fosse "Principal"
+Por Exemplo:
+
+Nesse caso temos uma tag que já nos familizamos muito, a tag h1 para titulos. Mas veja que ele está uma configuração padrão, sem o seletor personalizado.
+
+<h1>Titulo</h1>
+
+Pois nesse outro exemplo temos o seletor id no meio da tag h1.
+
+<h1 id="Principal">Titulo</h1>
+
+* Class = Esse seletor tem quase a mesma função da tag id, mas o que os deixam diferentes é que a tag Class serve para selecionar um "Grupo de tags" para ser personalizados. Por Exemplo:
+
+Nesse exemplo temos duas tags de "h2" que estão usando o mesmo seletor personalizado
+
+<h2 claas="basico" >Subtitulo Básico</h2>
+<h2 class="basico" >Subtitulo Básico</h2>
+
+Na prática em um conteúdo em CSS essas duas tags seletoras funciona de seguinte maneira. 
+
+class = .
+id = #
+
+Então em uma configuração em css vamos fazer assim:
+
+<style>
+	h1#principal{
+		backgroud-color: red;
+		font-family: arial;
+	}
+	h2.basico{
+		backgroud-color: grey
+		font-family
+	}
+</style>
+
+Obs: Podemos ter (class) em várias tags diferentes e no mesmo conteudo HTML. Mas não podemos ter vários (id) em um mesmo conteúdo HTML.

@@ -1,0 +1,37 @@
+## A IBM e o Mundo dos Bancos de Dados: Um Resumo Abrangente
+
+Para uma aula de banco de dados, é impossível não mencionar a International Business Machines (IBM), uma gigante da tecnologia cujo papel foi fundamental na criação e evolução dos sistemas de gerenciamento de bancos de dados que utilizamos hoje. De inovações teóricas a produtos robustos que rodam em sistemas de missão crítica, a IBM deixou uma marca indelével neste campo.
+
+### O Berço do Modelo Relacional e da Linguagem SQL
+
+A contribuição mais significativa da IBM para o mundo dos bancos de dados foi, sem dúvida, o desenvolvimento do **modelo relacional**. Em 1970, Edgar F. Codd, um pesquisador da IBM, publicou um artigo revolucionário intitulado "A Relational Model of Data for Large Shared Data Banks". Este trabalho introduziu a ideia de organizar dados em tabelas (ou "relações"), o que simplificou drasticamente a forma como os dados eram armazenados e recuperados, eliminando a complexidade dos modelos hierárquicos e em rede que prevaleciam na época.
+
+Derivado deste modelo, pesquisadores da IBM, notavelmente Donald Chamberlin e Raymond Boyce, desenvolveram a **Structured Query Language (SQL)**. Originalmente chamada de SEQUEL (Structured English Query Language), a SQL foi projetada para ser uma linguagem de fácil compreensão para consultar e manipular os dados no novo modelo relacional. A SQL tornou-se o padrão de fato para bancos de dados relacionais e continua sendo a linguagem mais utilizada para esse fim até hoje.
+
+Antes mesmo do sucesso do modelo relacional, a IBM já era uma pioneira com o **IMS (Information Management System)**, um dos primeiros sistemas de gerenciamento de banco de dados, baseado no modelo hierárquico. O IMS foi desenvolvido para o programa Apollo da NASA e é um testemunho da longa história da IBM no gerenciamento de dados de grande escala.
+
+### Principais Produtos de Banco de Dados da IBM
+
+Ao longo dos anos, a IBM desenvolveu e manteve uma vasta gama de produtos de banco de dados, atendendo a diferentes necessidades do mercado. Os principais são:
+
+* **IBM Db2:** É o carro-chefe da família de bancos de dados da IBM. Nascido do protótipo System R, que foi o primeiro a implementar a SQL, o Db2 é um SGBD relacional (SGBDR) conhecido por sua robustez, escalabilidade e desempenho. Ele está disponível em diversas plataformas, desde mainframes (Db2 for z/OS), que processam uma quantidade massiva de transações globais diariamente (como em bancos e companhias aéreas), até sistemas distribuídos (Linux, UNIX, Windows) e na nuvem.
+
+* **IBM Cloudant:** Um banco de dados NoSQL do tipo "document store", totalmente gerenciado e distribuído. É baseado no Apache CouchDB e utiliza JSON para armazenar documentos. O Cloudant é projetado para aplicações web e móveis que necessitam de alta disponibilidade, escalabilidade e a capacidade de funcionar offline.
+
+* **IBM Informix:** Um SGBDR de alto desempenho, conhecido por sua capacidade de integrar dados SQL, NoSQL/JSON, séries temporais e dados espaciais em uma única plataforma. É amplamente utilizado em sistemas de processamento de transações online (OLTP), data warehouses e em soluções de Internet das Coisas (IoT).
+
+* **Bancos de Dados Gerenciados na IBM Cloud:** Além de seus próprios produtos, a IBM oferece em sua plataforma de nuvem uma vasta gama de bancos de dados como serviço (DBaaS), incluindo implementações gerenciadas de bancos de dados de código aberto populares como **PostgreSQL, MySQL, MongoDB, Elasticsearch e Redis**. Isso permite que os desenvolvedores utilizem as ferramentas que preferem, com a infraestrutura e o suporte da IBM.
+
+### Situação Atual e Foco em IA e Nuvem Híbrida
+
+Atualmente, a estratégia da IBM no mercado de dados está fortemente focada em **Inteligência Artificial (IA)** e **nuvem híbrida**. A empresa posiciona seus bancos de dados como a base para suas soluções de IA, como a plataforma **watsonx**, que permite às empresas construir, treinar e implantar modelos de IA com seus próprios dados.
+
+A IBM continua a investir pesado em seu principal produto, o Db2, especialmente para o ambiente de mainframe com os novos sistemas IBM Z, garantindo que ele permaneça como uma plataforma segura e de alto desempenho para cargas de trabalho críticas. Ao mesmo tempo, sua expansão na oferta de bancos de dados na nuvem mostra um claro movimento para abraçar a flexibilidade e a escalabilidade que os ambientes de nuvem híbrida exigem.
+
+Recentemente, a IBM também tem destacado a importância da segurança em ambientes de IA, alertando sobre os riscos do "Shadow AI" (o uso não sancionado de ferramentas de IA por funcionários) e a necessidade de governança e controles de acesso robustos para os dados que alimentam esses sistemas.
+
+Em resumo, para uma aula de banco de dados, a IBM deve ser lembrada como a empresa que:
+* **Inventou o modelo relacional e a linguagem SQL**, os pilares dos bancos de dados modernos.
+* Desenvolveu e mantém o **Db2**, um dos SGBDs mais poderosos e confiáveis do mundo.
+* Oferece um **portfólio diversificado** que vai de mainframes a bancos de dados NoSQL na nuvem.
+* Está atualmente na vanguarda da integração de **bancos de dados com Inteligência Artificial** em ambientes de nuvem híbrida.
